@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { providerRegistry } from './core/provider';
 import { InstagramProvider } from './providers/instagram';
 import { downloadEngine } from './core/downloadEngine';
-import { MediaItem, ResolveResult, DownloadProgress } from './types';
+import { ResolveResult, DownloadProgress } from './types';
 import './App.css';
 
 // Register providers
